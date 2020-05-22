@@ -6,6 +6,12 @@ All the states are maintained internally using Redux funtions .
 ## Available Scripts
 
 In the project directory, you can run:
+Clone the project into local
+
+### `npm install`
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
+
+
 
 ### `npm start`
 
