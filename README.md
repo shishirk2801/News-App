@@ -1,6 +1,6 @@
 # News-App
 Its a simple News app built using React and redux . Its has the functionalities such as liking the post and also bookmarking the post .
-The articles are fetched  from api : https://newsapi.org/ 
+The articles are fetched  from api : https://newsapi.org/  .
 All the states are maintained internally using Redux funtions .
 
 ## Available Scripts
