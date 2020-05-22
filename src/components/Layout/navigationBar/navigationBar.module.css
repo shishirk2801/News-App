@@ -1,0 +1,78 @@
+.navbar {
+	font-size: 18px;
+	background-color: rgb(66, 159, 252);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding-bottom: 10px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.mainNav {
+	list-style-type: none;
+	display: none;
+}
+
+.navLinks,
+.logo {
+	text-decoration: none;
+	color: rgba(245, 245, 245, 0.7);
+}
+
+.mainNav li {
+	text-align: right;
+	margin: 8px 15px 8px 2px;
+}
+
+.logo {
+	display: inline-block;
+	font-size: 22px;
+	margin-top: 10px;
+	margin-left: 20px;
+	color: white;
+}
+
+.navbarToggle {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	cursor: pointer;
+	color: rgba(235, 228, 228, 0.8);
+	font-size: 24px;
+}
+
+.active {
+	display: block;
+}
+@media screen and (min-width: 768px) {
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 0;
+		height: 70px;
+		align-items: center;
+	}
+
+	.mainNav {
+		display: flex;
+		margin-right: 30px;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+
+	.navLinks {
+		margin-left: 40px;
+	}
+
+	.logo {
+		margin-top: 0;
+	}
+
+	.navbarToggle {
+		display: none;
+	}
+
+	.logo:hover,
+	.navLinks:hover {
+		color: rgba(255, 255, 255, 1);
+	}
+}

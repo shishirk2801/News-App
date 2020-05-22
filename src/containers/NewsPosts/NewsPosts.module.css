@@ -1,0 +1,13 @@
+.Posts {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 100%;
+}
+.Page h1 {
+	font-family: 'Cinzel', serif;
+	width: 30%;
+	margin: auto auto 25px auto;
+	font-size: 38px;
+}

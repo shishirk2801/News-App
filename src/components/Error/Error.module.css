@@ -1,0 +1,9 @@
+.Error {
+	font-family: 'Jost', sans-serif;
+	background-color: rgba(255, 255, 255, 0.13);
+	padding: 25px;
+	border-radius: 15px;
+	margin: auto;
+	padding: 100px;
+	color: rgba(0, 0, 0, 0.788);
+}

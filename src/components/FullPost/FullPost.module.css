@@ -1,0 +1,38 @@
+.News {
+	margin: auto;
+	width: 90%;
+	margin: auto auto 30px auto;
+}
+.News img {
+	width: 80%;
+	height: auto;
+}
+.News a {
+	margin: auto auto 18px auto;
+	width: 17%;
+	padding: 12px;
+	border-radius: 17px;
+	background-color: rgba(47, 58, 160, 0.801);
+	color: white;
+}
+.News a:hover {
+	width: 20%;
+	background-color: rgba(47, 58, 160, 0.945);
+}
+.News p {
+	justify-content: center;
+	margin: 20px auto 20px auto;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: oblique;
+}
+#Close {
+	position: absolute;
+	top: 80px;
+	right: 10px;
+	color: rgba(0, 0, 0, 0.404);
+	border-radius: 50%;
+}
+#Close:hover {
+	color: rgba(0, 0, 0, 0.918);
+	background-color: rgba(238, 238, 238, 0.425);
+}
