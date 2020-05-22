@@ -50,4 +50,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 create-react-app : The following link has all the commands that can be used with create-react-app https://github.com/facebook/create-react-app
 
 ReactJS : Refer to https://reactjs.org/ to understand the concepts of ReactJS
+Api use : https://newsapi.org/ 
 
