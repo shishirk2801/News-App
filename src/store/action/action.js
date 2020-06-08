@@ -55,7 +55,7 @@ export const initNEWS = () => {
 			'https://cors-anywhere.herokuapp.com/' +
 			'http://newsapi.org/v2/top-headlines?' +
 			'country=us&' +
-			'apiKey=ce47fc92d23d432ba1b5a9ace0c8c154';
+			'apiKey=##############';//Add you API key here
 		fetch(url)
 			.then((response) => {
 				return response.json();
