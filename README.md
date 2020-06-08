@@ -12,7 +12,6 @@ Clone the project into local
 Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
 
-
 ### `npm start`
 
 Runs the app in the development mode.<br />
@@ -20,6 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+Note : Please Set up the API key before start 
 
 ### `npm test`
 
@@ -49,6 +49,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 # Resources
 create-react-app : The following link has all the commands that can be used with create-react-app https://github.com/facebook/create-react-app
 
-ReactJS : Refer to https://reactjs.org/ to understand the concepts of ReactJS
+ReactJS : Refer to https://reactjs.org/ to understand the concepts of ReactJS <br/>
 Api use : https://newsapi.org/ 
 
